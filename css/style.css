@@ -95,3 +95,23 @@ footer {
   align-items: start;
 }
 
+.noticias-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.noticia-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  border-left: 6px solid #8b0000;
+}
+
+.noticia-card h3 {
+  margin: 0 0 5px 0;
+}
+
+.noticia-card small {
+  color: #666;
+}
