@@ -52,12 +52,6 @@ footer {
   padding: 10px;
 }
 
-.card img {
-  display: block;
-  margin: 10px auto;
-  max-width: 400px;
-}
-
 .badge {
   display: inline-block;
   background: #8b0000;
@@ -78,3 +72,12 @@ footer {
   display: block;
 }
 
+.card {
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin: 10px auto;
+  max-width: 400px;
+}
