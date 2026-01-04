@@ -6,7 +6,11 @@ fetch('noticias.json')
     data.forEach(noticia => {
       const card = document.createElement('div');
 
-      card.classList.add('noticia-card');
+      // ESTILO INLINE (esto IGNORA el CSS)
+      card.style.background = 'yellow';
+      card.style.border = '5px solid red';
+      card.style.padding = '20px';
+      card.style.marginBottom = '20px';
 
       card.innerHTML = `
         <h3>${noticia.titulo}</h3>
