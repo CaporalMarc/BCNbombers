@@ -94,3 +94,10 @@ footer {
   gap: 25px;
   align-items: start;
 }
+
+@media (min-width: 1024px) {
+  .card img {
+    max-width: 480px;
+    height: 600px;
+  }
+}
