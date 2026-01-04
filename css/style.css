@@ -80,8 +80,8 @@ footer {
 
 .card img {
   width: 100%;
-  max-width: 420px;
-  height: 520px;
+  max-width: 480px;
+  height: 600px;
   object-fit: cover;
   display: block;
   margin: 10px auto;
@@ -90,7 +90,7 @@ footer {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   gap: 25px;
   align-items: start;
 }
