@@ -35,9 +35,12 @@ nav a:hover {
 }
 
 main {
-  max-width: 900px;
-  margin: auto;
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+  padding: 20px;
 }
+
 
 .card {
   background: white;
