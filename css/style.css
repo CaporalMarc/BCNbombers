@@ -92,9 +92,3 @@ footer {
   align-items: start;
 }
 
-
-img {
-  border: 5px solid red !important;
-  max-width: 800px !important;
-  height: auto !important;
-}
