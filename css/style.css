@@ -129,3 +129,7 @@ footer {
 .noticia-card {
   background: red !important;
 }
+
+body {
+  background: #f0f0f0;
+}
