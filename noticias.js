@@ -5,7 +5,8 @@ fetch('noticias.json')
 
     data.forEach(noticia => {
       const card = document.createElement('div');
-      card.className = 'noticia-card';
+
+      card.classList.add('noticia-card');
 
       card.innerHTML = `
         <h3>${noticia.titulo}</h3>
