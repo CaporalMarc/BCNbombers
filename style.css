@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+
+header {
+  background: #8b0000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: #2b2b2b;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffb3b3;
+}
+
+main {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
